@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="calculator.css">
+  <title>Social Calculator</title>
+</head>
+<body>
+  <header>
+    <h1>Social <span>Calculator</span></h1>
+  </header>
+  <main>
+    <div id="calculator">
+      <input type="text" readonly required id="sum_area" value="0" autofocus>
+      <div class="btn-container">
+        <button class="btn" onclick="clear_sum_area()">
+          C
+        </button>
+        <button class="btn" onclick="btn_click_second('%')">
+          %
+        </button>
+        <button class="btn" onclick="btn_click_second('/')">
+          /
+        </button>
+        <button class="btn" onclick="del_button()">
+          Del
+        </button>
+        <button class="btn" onclick="btn_click_second('*')">
+          *
+        </button>
+        <button class="btn" onclick="btn_click_first('9')">
+          9
+        </button>
+        <button class="btn" onclick="btn_click_first('8')">
+          8
+        </button>
+        <button class="btn" onclick="btn_click_first('7')">
+          7
+        </button>
+        <button class="btn" onclick="btn_click_second('-')">
+          -
+        </button>
+        <button class="btn" onclick="btn_click_first('6')">
+          6
+        </button>
+        <button class="btn" onclick="btn_click_first('5')">
+          5
+        </button>
+        <button class="btn" onclick="btn_click_first('4')">
+          4
+        </button>
+        <button class="btn" onclick="btn_click_second('+')">
+          +
+        </button>
+        <button class="btn" onclick="btn_click_first('1')">
+          1
+        </button>
+        <button class="btn" onclick="btn_click_first('2')">
+          2
+        </button>
+        <button class="btn" onclick="btn_click_first('3')">
+          3
+        </button>
+        <button class="btn" onclick="pi_click(pi)">
+          π
+        </button>
+        <button class="btn" onclick="btn_click_second('.')">
+          .
+        </button>
+        <button class="btn" onclick="btn_click_first('0')">
+          0
+        </button>
+        <button class="btn" id="js-equal" onclick="find_sum()">
+          =
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h6> © 2026 Social Calculator. All rights are reserved. </h6>
+  </footer>
+  <script src="calculator.js"></script>
+</body>
+</html>
