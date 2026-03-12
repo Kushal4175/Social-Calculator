@@ -21,6 +21,7 @@ A sleek, responsive web-based calculator built with HTML5, CSS3, and Vanilla Jav
   - Logic to handle "Auto-focus" so you can type immediately.
 
 ## 📸 Preview
+<img width="1913" height="872" alt="Social Calculator - Google Chrome 12_03_2026 10_10_23 PM" src="https://github.com/user-attachments/assets/4e501dcf-b20a-4eaa-a264-8cdc748edef3" />
 
 ## 📜 How to Use
 1. Clone the repository:
